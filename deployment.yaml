@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-express
-        image: chimezdev/simple-express
+        image: chimezdev/reverse-proxy-nginx
         ports:
         - containerPort: 8080
         livenessProbe:
