@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-express
-        image: YOUR-DOCKER-ID/simple-express
+        image: chimezdev/simple-express
         ports:
         - containerPort: 8080
         livenessProbe:

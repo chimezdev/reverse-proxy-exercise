@@ -16,7 +16,7 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker build -t simple-express .
-  - docker tag simple-express YOUR_DOCKER_HUB/simple-express:latest
+  - docker tag simple-express chimezdev/reverse-proxy-nginx:latest
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin

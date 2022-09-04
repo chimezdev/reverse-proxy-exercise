@@ -1,6 +1,9 @@
 # Overview
 
-This is a very simple, bare-bones NodeJS and ExpressJS project created for you to use with Docker.
+This is a project on how to automate a microservice application deployment in a docker container using travisCI and Kubernetes. Creating a reverse proxy using nginx and also demonstrating hpa and health recovery of the kubernetes pods.
+- This is a very simple, bare-bones NodeJS and ExpressJS project created for you to use with Docker.
+
+# Procedures to be added.
 
 ## Local Setup
 
